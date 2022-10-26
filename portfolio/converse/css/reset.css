@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	
+}
+
+/* 초기화 */
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,abbr,address,cite,code,del,em,img,
+ins,q,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,a,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,
+menu,nav,section,summary,time,mark,audio,video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+		vertical-align:baseline;
+    -webkit-text-size-adjust:none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #cecece;
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+address,
+em,
+i {
+	font-style: normal;
+}
+
+hr,
+caption,
+legend {
+	display: none;
+}
+
+fieldset,
+img {
+	border: none;
+}
+
+textarea {
+	resize: none;
+}
+
+.text-center {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+/* "screen reader만 읽게 하겠다"라는 의미의 클래스명 sr-only */
+/* 향후 포지션 학습 시간에 자세히 다룰 예정 */
+.sr-only {
+	position: absolute;
+	left: -9999px;
+}
+
+body {
+	/* 페이지에서 세로 스크롤바가 나타났을 때 가로로 컨텐츠가 흔들리는 현상을 방지 */
+	overflow-y: scroll;
+	color: #cecece;
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: 'Noto Sans KR' , 'Montserrat';
+  background-color: #141414;
+}

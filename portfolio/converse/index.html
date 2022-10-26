@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
+  <html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컨버스테스트</title>
+    
+
+    <!-- CSS -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/swiperFn.js"></script>
+    <script defer src="./js/function.js"></script>
+                                      
+  </head>
+<body>
+  <div id="wrap">
+    <div class="top-banner">
+      <div class="top-banner-wrap">
+        <ol class="top-banner-list">
+          <li><a href="#"><span>교환/반품</span> 서비스</a></li>
+
+          <li><a href="#">지금바로 <span>회원가입</span>하시고 <span>특별한 혜택</span>을 누려보세요</a></li>
+          <li><a href="#"><span>카카오 1초 가입</span>시 <span>최대 15,000원 쿠폰</span>증정!</a></li>
+          <li><a href="#"><span>컨버스 공식 카카오채널</span>로 새로운 소식을 확인하세요</a></li>
+          <li><a href="#"><span>5만원 이상</span> 구매시 <span>무료배송!</span></a></li>
+          <li><a href="#"><span>교환/반품</span> 서비스</a></li>
+
+          <li><a href="#">지금바로 <span>회원가입</span>하시고 <span>특별한 혜택</span>을 누려보세요</a></li>
+        </ol>
+
+        <a rel="noopener noreferrer" href="#" class="slides-navigation prev">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+        <a rel="noopener noreferrer" href="#" class="slides-navigation next">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+
+    <header>
+
+      <a href="javascript:void(0)" id="showMenu">
+        <!-- The paragraph tags could easily be replaced with a single image instead -->
+        <div class="menu-box">
+          <p class="menu-logo">
+            converse
+          </p>
+          <p class="menu-txt">
+            <span>메</span> 
+            <span>뉴</span> 
+            <span>보</span> 
+            <span>기</span> 
+          </p>
+        </div>
+      </a>
+  
+      <nav>
+        <ol class="gnb-top">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">주문배송조회</a></li>
+          <li><a href="#">장바구니<span>10+</span></a></li>
+          <li><a href="#">검색</a></li>
+        </ol>
+        <ul class="gnb">
+          <li>
+            <a href="#">신발</a>
+            <div class="lnb-wrap">
+              <ol class="lnb-wrapper lnb-shoes">
+                <li><a href="#" class="lnb-bold">전체보기</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">베스트셀러</a></li>
+                <li><a href="#">척테일러 올스타</a></li>
+                <li><a href="#">척 70</a></li>
+                <li><a href="#">플랫폼</a></li>
+                <li><a href="#">스케이트보딩</a></li>
+              </ol>
+              <ul class="lnb-wrapper lnb-featured">
+                <li><a href="#" class="lnb-bold">Featured</a></li>
+                <li><a href="#">런스타 하이크</a></li>
+                <li><a href="#">런스타 모션</a></li>
+                <li><a href="#">무브</a></li>
+                <li><a href="#">리프트</a></li>
+                <li><a href="#">슬립온</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">신규가입 1만원 쿠폰</a></li>
+              </ul>
+            </div>
+          </li>
+  
+          <li>
+            <a href="#">의류</a>
+            <ol class="lnb">
+              <li><a href="#" class="lnb-bold">전체보기</a></li>
+              <li><a href="#">아우터</a></li>
+              <li><a href="#">상의</a></li>
+              <li><a href="#">하의</a></li>
+              <li><a href="#">용품</a></li>
+            </ol>
+          </li>
+  
+          <li>
+            <a href="#">아동</a>
+            <ol class="lnb">
+              <li><a href="#" class="lnb-bold">전체보기</a></li>
+              <li><a href="#">유아(165mm이하)</a></li>
+              <li><a href="#">어린이(215mm이하)</a></li>
+            </ol>
+          </li>
+          <li><a href="#">런칭캘린더</a></li>
+          <li><a href="#">세일</a></li>
+        </ul>
+  
+        <div class="recommend">
+          <h2>추천상품</h2>
+
+          <ul class="recommend-list recommend-shoes">
+            <li><a href="#">STEADY SELLER</a></li>
+            <li><a href="#">CREATE NEXT</a></li>
+            <li><a href="#">COMME DES GARCONS</a></li>
+            <li><a href="#">WINTER EDITION</a></li>
+          </ul>
+
+          <ul class="recommend-list recommend-clothes">
+            <li><a href="#">척 패치 후드 빈티지</a></li>
+            <li><a href="#">팁오프 척 패치 베이스볼 캡</a></li>
+            <li><a href="#">트랜지션 백팩</a></li>
+            <li><a href="#">엠브로더리 척패치 크루</a></li>
+          </ul>
+
+          <ul class="recommend-list recommend-baby">
+            <li><a href="#">척 70 클래식키즈</a></li>
+            <li><a href="#">척 70 빈티지캔버스 인펀트</a></li>
+            <li><a href="#">척 테일러 올스타 키즈</a></li>
+            <li><a href="#">수퍼플레이</a></li>
+          </ul>
+        </div>
+      </nav>
+  
+      <div class="shadow"></div>
+
+
+      <div class="video-wrap">
+        <div class="vignette"></div>
+        <div class="overlay"></div>
+        <div class="gradation"></div>
+
+        <video id="video-slider" muted=""  autoplay="" loop="" playsinline="">
+          <source src="./media/converse_video1.mp4" type="video/mp4">
+        </video>
+
+        <div class="header-wrapper">
+          <h1 class="logo"><a href="#">컨버스로고</a></h1>
+  
+
+          <div class="video-text-wrap">
+            <ul class="video-navigation">
+              <li onclick="videoUrl('converse_video1.mp4')" class="on">
+                  <video>
+                      <source src="./media/converse_video1.mp4" type="video/mp4">
+                  </video>
+              </li>
+    
+    
+              <li onclick="videoUrl('converse_video2.mp4')">
+                  <video>
+                      <source src="./media/converse_video2.mp4" type="video/mp4">
+                  </video>
+              </li>
+    
+              <li onclick="videoUrl('converse_video3.mp4')">
+                  <video>
+                      <source src="./media/converse_video3.mp4" type="video/mp4">
+                  </video>
+              </li>
+    
+              <li onclick="videoUrl('converse_video4.mp4')">
+                <video>
+                    <source src="./media/converse_video4.mp4" type="video/mp4">
+                </video>
+            </li>
+            </ul> 
+            <div class="video-text-wrapper video-text-wrapper1">
+              <h2 class="video-tit">
+                CONVERSE X KEITH HARING
+              </h2>
+              <p class="video-desc">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션은 <br>
+                80년대 팝 아티스트 키스 해링의 아이코닉한 작품을 통해 <br>
+                새로움을 창조하는 것을 즐기는 유스 컬처를 기념합니다.
+              </p>
+
+              <p class="video-desc-mobiles">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션
+              </p>
+              <div class="view viewhover">
+                <a href="#">보러가기</a>
+              </div>
+            </div>
+
+            <div class="video-text-wrapper video-text-wrapper2">
+              <h2 class="video-tit">
+                CONVERSE X KEITH HARING
+              </h2>
+              <p class="video-desc">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션은 <br>
+                80년대 팝 아티스트 키스 해링의 아이코닉한 작품을 통해 <br>
+                새로움을 창조하는 것을 즐기는 유스 컬처를 기념합니다.
+              </p>
+
+              <p class="video-desc-mobiles">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션
+              </p>
+              <div class="view viewhover">
+                <a href="#">보러가기</a>
+              </div>
+            </div>
+
+            <div class="video-text-wrapper video-text-wrapper3">
+              <h2 class="video-tit">
+                CONVERSE X KEITH HARING
+              </h2>
+              <p class="video-desc">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션은 <br>
+                80년대 팝 아티스트 키스 해링의 아이코닉한 작품을 통해 <br>
+                새로움을 창조하는 것을 즐기는 유스 컬처를 기념합니다.
+              </p>
+
+              <p class="video-desc-mobiles">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션
+              </p>
+              <div class="view viewhover">
+                <a href="#">보러가기</a>
+              </div>
+            </div>
+
+            <div class="video-text-wrapper video-text-wrapper4">
+              <h2 class="video-tit">
+                CONVERSE X KEITH HARING
+              </h2>
+              <p class="video-desc">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션은 <br>
+                80년대 팝 아티스트 키스 해링의 아이코닉한 작품을 통해 <br>
+                새로움을 창조하는 것을 즐기는 유스 컬처를 기념합니다.
+              </p>
+
+              <p class="video-desc-mobiles">
+                새롭게 선보이는 컨버스X키스 해링 젠더-프리 어패럴 컬렉션
+              </p>
+              <div class="view viewhover">
+                <a href="#">보러가기</a>
+              </div>
+            </div>
+  
+
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="sr-only">섹션영역</h2>
+
+      <article class="allitems">
+        <div class="text-box">
+          <h2><a href="#">EXPLORE CONVERSE</a> </h2>
+          <p class="allitems-txt">
+            컨버스의 모든 제품을 한눈에 확인해보세요.
+          </p>
+        </div>
+        <ul class="allitems-list">
+          <li><a href="#" class="allitems-list-big">여성<br>전체보기</a></li>
+          <li><a href="#" class="allitems-list-big">남성<br>전체보기</a></li>
+          <li><a href="#" class="allitems-list-big">아동<br>전체보기</a></li>
+          <li><a href="#">척 70</a></li>
+          <li><a href="#">척테일러 <span>올스타</span></a></li>
+          <li><a href="#">플랫폼</a></li>
+          <li><a href="#">한정판</a></li>
+          <li><a href="#">Online <span>Only</span></a></li>
+          <li><a href="#">빅사이즈</a></li>
+        </ul>
+      </article>
+
+      <article class="newitem">
+        <div class="text-box">
+          <p class="newitem-tit">
+            SHOP 
+            BY 
+            STYLE
+          </p>
+          <h2><a href="#">신상품 보러가기</a> </h2>
+          <p class="newitem-txt">
+            다양한 스타일의 컨버스 제품.<br>
+            내 취향에 맞춰 신상품을 확인해보세요
+          </p>
+        </div>
+        <div class="items">
+          <div class="items-box">
+            <div class="item item1">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href="#">컨버스 로우</a>
+            </div>
+            <div class="item item4">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href="#">컨버스 런스타</a>
+            </div>
+          </div>
+
+          <div class="items-box">
+            <div class="item item2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href="#">컨버스 하이</a>
+            </div>
+            <div class="item item3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href="#">컨버스 플랫폼</a>
+            </div>            
+          </div>
+        </div>
+      </article>
+
+      <article class="launching">
+        <div class="launching-bg"></div>
+        <div class="launching-wrap">
+          <div class="launching-txt-wrap">
+            <p class="launching-tit">CONVERSE X A-COLD WALL</p>
+            <p class="launching-txt">
+              새롭고 컨셉추얼한 디자인을 선보여 온 컨버스와 어 콜드 월*이 <br>
+              미니멀한 컬러 팔레트에 시선을 사로잡는 디테일을 더해 
+              <span>아이코닉하고 클래식한 Chuck 70 실루엣을 재해석합니다</span>
+            </p>
+          </div>
+          <div class="countdown">
+
+            <div class="d-day-wrap">
+              <p class="count-text days-point" id="days"></p>
+              <span class="days-point">D-DAY</span>
+            </div>
+
+            <div class="clock-wrap">
+              <div>
+                <p class="count-text" id="hours">0</p>
+                <span>HOURS</span>
+              </div>
+              <div>
+                <p class="count-text" id="minutes">0</p>
+                <span>MINUTES</span>
+              </div>
+              <div>
+                <p class="count-text" id="seconds">0</p>
+                <span>SECONDS</span>
+              </div>
+            </div>
+          </div>
+          
+          <p class="view-on-tit">LAUNCHING CALENDAR</p>
+          <div class="view viewhover">
+            <a href="#">보러가기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="banner">
+        <div class="banner-wrap">
+          <div class="text-box">
+            <p class="banner-tit">
+              TREND ON
+            </p>
+            <h2><a href="#">소식 알아보기</a> </h2>
+            <p class="banner-txt">
+              콜라보 소식부터 신상품까지 
+              컨버스의 소식을 확인해보세요
+            </p>
+            <a rel="noopener noreferer" href="#" class="slides-navigation prev">이전</a>
+            <a rel="noopener noreferer" href="#" class="slides-navigation next">다음</a>
+          </div>
+
+
+          <!--  -->
+          <div class="banner-slide">
+            <div class="banner-slide-container">
+
+              <div class="slide-wrap slide-wrap1">
+                <div class="slide-box-wrap">
+                  <div class="slide-box1 slide-box1-frame1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <a href="#">원스타 프로</a>
+                  </div>
+                  <div class="slide-box2">
+                    <div class="slide-box2-frame-wrap">
+                      <p class="slide-box2-tit">ONE STAR PRO</p>
+                      <p class="slide-box2-txt">CX삭 라이너로 스케이트 보드만의 아주 특별한 보드 감각을<br>경험할 수 있는 원스타 스니커즈</p>
+                      <p class="slide-box2-frame slide-box2-frame1"><a href="#">레더컨버스이미지2</a></p>
+                    </div>
+  
+                    <ul class="slide-item-list">
+                      <li>
+                        <a href="#" class="item-list-img list-img1">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 블랙</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="item-list-img list-img2">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 빈티지 스웨이드 라이트본</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide-wrap slide-wrap2">
+                <div class="slide-box-wrap">
+                  <div class="slide-box1 slide-box1-frame2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <a href="#">원스타 프로</a>
+                  </div>
+                  <div class="slide-box2">
+                    <div class="slide-box2-frame-wrap">
+                      <p class="slide-box2-tit">ONE STAR PRO</p>
+                      <p class="slide-box2-txt">CX삭 라이너로 스케이트 보드만의 아주 특별한 보드 감각을<br>경험할 수 있는 원스타 스니커즈</p>
+                      <p class="slide-box2-frame slide-box2-frame1"><a href="#">레더컨버스이미지2</a></p>
+                    </div>
+  
+                    <ul class="slide-item-list">
+                      <li>
+                        <a href="#" class="item-list-img list-img1">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 블랙</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="item-list-img list-img2">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 빈티지 스웨이드 라이트본</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide-wrap slide-wrap3">
+                <div class="slide-box-wrap">
+                  <div class="slide-box1 slide-box1-frame1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <a href="#">원스타 프로</a>
+                  </div>
+                  <div class="slide-box2">
+                    <div class="slide-box2-frame-wrap">
+                      <p class="slide-box2-tit">ONE STAR PRO</p>
+                      <p class="slide-box2-txt">CX삭 라이너로 스케이트 보드만의 아주 특별한 보드 감각을<br>경험할 수 있는 원스타 스니커즈</p>
+                      <p class="slide-box2-frame slide-box2-frame1"><a href="#">레더컨버스이미지2</a></p>
+                    </div>
+  
+                    <ul class="slide-item-list">
+                      <li>
+                        <a href="#" class="item-list-img list-img1">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 블랙</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="item-list-img list-img2">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 빈티지 스웨이드 라이트본</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide-wrap slide-wrap4">
+                <div class="slide-box-wrap">
+                  <div class="slide-box1 slide-box1-frame1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <a href="#">원스타 프로</a>
+                  </div>
+                  <div class="slide-box2">
+                    <div class="slide-box2-frame-wrap">
+                      <p class="slide-box2-tit">ONE STAR PRO</p>
+                      <p class="slide-box2-txt">CX삭 라이너로 스케이트 보드만의 <span>아주 특별한 보드 감각을</span><br>경험할 수 있는 원스타 스니커즈</p>
+                      <p class="slide-box2-frame slide-box2-frame1"><a href="#">레더컨버스이미지2</a></p>
+                    </div>
+  
+                    <ul class="slide-item-list">
+                      <li>
+                        <a href="#" class="item-list-img list-img1">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 블랙</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="item-list-img list-img2">
+                          <p class="itemicon">찜하기</p>
+                          <p class="slide-item-tit">원스타 프로 빈티지 스웨이드 라이트본</p> 
+                          <p class="slide-item-price">95,000원</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>            
+            </div>
+          </div>
+
+          
+          <ul class="slides-pagination">
+            <li class="on"><a rel="noopener noreferer" href="#">배너1</a></li>
+            <li><a rel="noopener noreferer" href="#">배너2</a></li>
+            <li><a rel="noopener noreferer" href="#">배너3</a></li>
+            <li><a rel="noopener noreferer" href="#">배너4</a></li>
+         </ul>
+        </div>
+      </article>
+
+
+      <article class="onlineonly">
+        <div class="marquee">
+          <div class="inner">
+            <p>
+              Converse Converse Converse Converse Converse Converse
+              Converse Converse Converse Converse Converse Converse
+            </p>
+          </div>
+        </div>
+
+        <div class="marquee">
+          <div class="inner">
+            <p class="stroke">
+              available available available available available available
+              available available available available available available
+            </p>
+          </div>
+        </div>
+
+        <div class="marquee">
+          <div class="inner">
+            <p>
+              OnlineOnly OnlineOnly OnlineOnly OnlineOnly OnlineOnly OnlineOnly
+              OnlineOnly OnlineOnly OnlineOnly OnlineOnly OnlineOnly OnlineOnly
+            </p>
+          </div>
+        </div>
+        <p class="onlineonly-article onlineonly-frame"><a href="#">컨버스가을컬러움직이는이미지</a></p>
+        <p class="onlineonly-article onlineonly-txt4">
+          오직 온라인에서만 만날 수 있는<br>
+          특별한 컨버스 아이템을 만나보세요
+        </p>
+
+        <div class="view viewhover">
+          <a href="#">보러가기</a>
+        </div>
+      </article>
+
+      <article class="bestitem">
+        <div class="text-box">
+          <p class="bestitem-tit">
+            TRENDING STYLES
+          </p>
+          <h2><a href="#">베스트상품 보러가기</a> </h2>
+          <p class="bestitem-txt">
+            지금 바로 인기있는 컨버스의 제품을<br>
+            놓치지말고 확인해보세요.
+          </p>
+        </div>
+        <div class="items">
+          <div class="item item1">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#">시즈널 컬러</a>
+          </div>
+          <div class="item item2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#">온라인 온리</a>
+          </div>
+          <div class="item item3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#">런스타 하이크</a>
+          </div>
+          <div class="item item4">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#">런스타 모션</a>
+          </div>   
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <article class="footer-info-list ">
+        <div class="footer-info-list-wrap">
+          <ul class="footer-info-list-wrapper">
+
+            <li>
+              <p>FOLLOW US</p>
+              <ol class="footer-lnb">
+                <li><a href="#">페이스북</a></li>
+                <li><a href="#">인스타</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <p>SUPPORT</p>
+              <ol class="footer-lnb">
+                <li><a href="#">고객지원센터</a></li>
+                <li><a href="#">1:1문의</a></li>
+                <li><a href="#">주문/배송조회</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <p>INFORMATION</p>
+              <ol class="footer-lnb">
+                <li><a href="#">컨버스에 대하여</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">매장안내</a></li>
+                <li><a href="#">공지사항</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <p>POLICY</p>
+              <ol class="footer-lnb">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#" class="footer-bold">개인정보처리방침</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <p>FAMILY SITES</p>
+              <ol class="footer-lnb">
+                <li><a href="#">NIKE</a></li>
+                <li><a href="#">JORDAN</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="footer-info">
+        <div class="footer-info-wrap">
+          <div class="footer-info-wrap-left">
+            <p><a href="#">(유)컨버스코리아</a> ｜ 대표 주형준 ｜ 개인정보책임 주형준 ｜ <span>사업자등록번호 220-88-74818</span></p>
+            <p>통신판매업 신고번호 제2016-서울강남-00478호 ｜ 통신판매업자 신원정보 확인</p>
+            <address>서울 특별시 강남구 테헤란로 152(역삼동)강남파이낸스센터 32층</address>
+            <p class="tabletcn">고객상담팀 : 080-987-0182(상담시간 월-금 am09:00 - pm05:30 / 주말.공휴일휴무 <span>conversekorea@converse.co.kr(24시간 접수가능)</span> </p>
+            <p>2020 Converse Korea LLC.All Rights Reserved.</p>
+          </div>
+
+          <div class="footer-info-wrap-right">
+            <p>KG 이니시스 구매안전 서비스</p>
+            <p>
+              고객님은 안전거래를 위해 현금 등으로 결제시<br>
+              저희 쇼핑몰이 가입한 PG에스크로 구매안전서비스를 이용하실 수 있습니다.
+            </p>
+            <p>결제대금예치업 등록번호 02-006-00013</p>
+            <a href="#">서비스 가입사실 확인</a>
+          </div>
+        </div>
+      </article>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>

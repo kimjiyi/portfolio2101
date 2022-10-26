@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+    <!-- Coding by CodingLab | www.codinglabweb.com -->
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>일룸</title>
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!-- CSS -->
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="stylesheet" href="./css/animate.css">
+        <link rel="stylesheet" href="./css/swipe-style.css">
+        <link rel="stylesheet" href="./css/style-scss-ver.css">
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/wow.min.js"></script>
+        <script src="./js/wow-function.js"></script>
+        <script defer src="./js/function.js"></script>
+                                        
+    </head>
+    <body>
+      <div id="wrap">
+        <header>
+          <div class="bg_lnb"><a href="#">메뉴배경</a></div>
+          <div class="snb-container">
+            <div class="snb-box">
+              <ol class="snb">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">주문/배송</a></li>
+                <li><a href="#">고객지원</a></li>
+                <li><a href="#">매장안내</a></li>
+              </ol>
+            </div>
+            <!-- .snb-box -->
+          </div>
+          <!-- .snb-container -->
+    
+          <div class="logo-box">
+            <h1 class="logo"><a href="#">로고영역</a></h1>
+          </div>
+    
+    
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="#">침실</a>
+                <ol class="lnb">
+                  <li><a href="#">침대</a></li>
+                  <li><a href="#">매트리스</a></li>
+                  <li><a href="#">옷장</a></li>
+                  <li><a href="#">수납장</a></li>
+                  <li><a href="#">화장대</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">거실</a>
+                <ol class="lnb">
+                  <li><a href="#">테이블</a></li>
+                  <li><a href="#">거실장</a></li>
+                  <li><a href="#">소파</a></li>
+                  <li><a href="#">수납장</a></li>
+                  <li><a href="#">액세서리</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">주방</a>
+                <ol class="lnb">
+                  <li><a href="#">식탁</a></li>
+                  <li><a href="#">수납장</a></li>
+                  <li><a href="#">의자</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">키즈룸</a>
+                <ol class="lnb">
+                  <li><a href="#">침대</a></li>
+                  <li><a href="#">책상</a></li>
+                  <li><a href="#">수납장</a></li>
+                  <li><a href="#">소파/의자</a></li>
+                  <li><a href="#">액세서리</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">학생방</a>
+                <ol class="lnb">
+                  <li><a href="#">책상</a></li>
+                  <li><a href="#">책장</a></li>
+                  <li><a href="#">수납장</a></li>
+                  <li><a href="#">의자</a></li>
+                  <li><a href="#">침대</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">서재</a>
+                <ol class="lnb">
+                  <li><a href="#">책상</a></li>
+                  <li><a href="#">책장</a></li>
+                  <li><a href="#">서랍장</a></li>
+                  <li><a href="#">의자</a></li>
+                  <li><a href="#">수납장</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">펫</a>
+                <ol class="lnb">
+                  <li><a href="#">가구</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">시리즈</a>
+                <ol class="lnb">
+                  <li><a href="#">침실</a></li>
+                  <li><a href="#">거실</a></li>
+                  <li><a href="#">주방</a></li>
+                  <li><a href="#">키즈룸</a></li>
+                  <li><a href="#">학생방</a></li>
+                  <li><a href="#">서재</a></li>
+                  <li><a href="#">펫</a></li>
+                </ol>
+              </li>
+    
+              <li>
+                <a href="#">아울렛</a>
+                <ol class="lnb">
+                  <li><a href="#">침실</a></li>
+                  <li><a href="#">거실</a></li>
+                  <li><a href="#">주방</a></li>
+                  <li><a href="#">키즈룸</a></li>
+                  <li><a href="#">학생방</a></li>
+                </ol>
+              </li>
+            </ul>
+    
+            <div class="navicon">
+              <ol>
+                <li><a href="#">검색</a></li>
+                <li><a href="#">장바구니</a></li>
+              </ol>
+            </div>
+          </nav>
+        </header>
+    
+        <div class="slides">
+          <div class="slides-container">
+    
+            <p class="slide-5"><a href="#">CUSINO 우리아이의 안전한 수면을 위해, 데이베드형 쿠시노 침대</a></p>
+    
+             <!-- 무한슬라이드의 경우 p:nth-child() 대신에 class를 사용하여 bgi 작업 필수 -->
+             <p class="slide-1"><a href="#">일룸 웨딩 프로모션 신혼 특별 프로모션부터 맞춤 공간 제안 서비스까지</a></p>
+             <p class="slide-2"><a href="#">FRISTO 빈 틈 없는 수납으로 깔끔한 주방 인테리어 완성, 프리스토 청소기장</a></p>
+             <p class="slide-3"><a href="#">BEAU:SC 코린이부터 뷰티 크리에이터를 위한 화장대, 뷰스크</a></p>
+             <p class="slide-4"><a href="#">PLOP 침대같이 포근한 휴식을 선사하는 플롭 패브릭 소파</a></p>
+             <p class="slide-5"><a href="#">CUSINO 우리아이의 안전한 수면을 위해, 데이베드형 쿠시노 침대</a></p>
+    
+             <p class="slide-1"><a href="#">일룸 웨딩 프로모션 신혼 특별 프로모션부터 맞춤 공간 제안 서비스까지</a></p>
+    
+          </div>
+    
+          <ul class="slides-pagination">
+            <li class="on"><a rel="noopener noreferer" href="#">일룸 웨딩 프로모션</a></li>
+            <li><a rel="noopener noreferer" href="#">프리스토</a></li>
+            <li><a rel="noopener noreferer" href="#">뷰스크</a></li>
+            <li><a rel="noopener noreferer" href="#">플롭</a></li>
+            <li><a rel="noopener noreferer" href="#">쿠시노침대</a></li>
+          </ul>
+    
+          <a rel="noopener noreferrer" href="#" class="slides-navigation prev">이전</a>
+          <a rel="noopener noreferrer" href="#" class="slides-navigation next">다음</a>
+    
+          <a rel="noopener noreferrer" href="#" class="btn_auto pause">재생</a>
+       </div>
+          
+    <section>
+      <h2 class="title wow fadeInUp">이런 제품은 어떠세요?</h2>
+      <p class="sub_title wow fadeInUp">일룸이 추천드려요!</p>   
+      <article class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <div class="card-image">
+                        <p class="card-img card-img1"><a href="#">쿠시노 저상형 침대</a></p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="name">
+                        [일룸]쿠시노 저상형 침대(ss) - 데이베드형
+                        <span class="description">1,056,000원</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <div class="card-image">
+                        <p class="card-img card-img2"><a href="#">침대가드 1500폭</a></p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="name">
+                        [일룸]침대가드 1500폭
+                        <span class="description">238,000원</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <div class="card-image">
+                        <p class="card-img card-img3"><a href="#">6단 다리형 책상 세트 1400폭</a></p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="name">
+                        [일룸]6단 다리형 책상 세트 1400폭
+                        <span class="description">789,000원</span>
+                    </p>
+                </div>
+            </div>
+
+
+            
+
+   
+          </div>
+          <!-- .card-wrapper swiper-wrapper -->
+        </div>
+        <!-- .slide-content -->
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </article>
+      <!-- .slide-container .swiper -->
+
+      <article class="cardbanner">
+        <h2 class="title wow fadeInUp">일룸의 혜택</h2>
+        <p class="sub_title wow fadeInUp">놓치지말고 혜택 챙겨가세요!</p>
+        <div class="cardbanner_1">
+          <a href="#">일룸웨딩프로모션 똑똑한 신혼이라면 놓치지 않을 특별한 혜택</a>
+        </div>
+        <div class="cardbanner_container">
+          <div class="cardbanner cardbanner_2">
+            <a href="#">EVENT 일룸이 준비한 다양한 이벤트와 풍성한 혜택을 만나보세요</a>
+          </div>
+          <div class="cardbanner cardbanner_3">
+            <a href="#">review #나의일룸생활 간단하게 후기를 남기고 다양한 선물을 받아보세요</a>
+          </div>
+          <div class="cardbanner cardbanner_4">
+            <a href="#">LIFESTYLE 일룸이 제안하는 공간 속 새로운 삶의 모습을 만나보세요</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="longbanner">
+        <h2 class="sr-only">배너#나의일룸생활 일룸으로 달라진 특별한 생활을 만나보세요 클릭하면이동</h2>
+        <a href="#">
+          <div class="longbanner_container">
+            <p class="longframe"></p>
+            <p class="txt"><span class="point">일룸</span>으로 달라진 <span class="point">특별한 생활</span>을 만나보세요</p>
+            <p class="more">더보기 +</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="review_container">
+        <h2 class="title wow fadeInUp">일룸인의 일룸생활</h2>
+        <p class="sub_title wow fadeInUp">일룸과 함께한 고객님들의 생생한 리뷰를 확인해보세요!</p>  
+        <div class="review_slide review_wrap">
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame1">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">김하늘님의 일룸생활</p>
+            <p class="review_txt">
+              넘넘 예쁜 테이블이에요 <br /> 페닉스 상판이 정말 고급스럽고 뭐 흘려도 잘 지워지네요 대만족입니다
+            </p>
+          </a>
+
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame2">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">송선화님의 일룸생활</p>
+            <p class="review_txt">
+              일룸 바젤 침대SS두개 호텔식 침대 원했고<br />수면의 질 향상을 위하여 SS두개 따로 배치 매트리스 단단한게
+            </p>
+          </a>
+
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame3">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">이하늘님의 일룸생활</p>
+            <p class="review_txt">
+              아기가 뒤집기를 시작하면서<br />아기침대에서 360도를 회전하면서 자는데 빨리 침대를 바꿔줘야겠다고 생
+            </p>
+          </a>
+
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame4">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">강하영님의 일룸생활</p>
+            <p class="review_txt">
+              예쁘고 튼튼하고 만족스러워요<br />캣타워를 고를때 가장 중요하게 본게 튼튼함이였어요. 원목 재질은 예
+            </p>
+          </a>
+
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame5">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">김하늘님의 일룸생활</p>
+            <p class="review_txt">
+              넘넘 예쁜 테이블이에요 <br /> 페닉스 상판이 정말 고급스럽고 뭐 흘려도 잘 지워지네요 대만족입니다
+            </p>
+          </a>
+
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame6">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">김하늘님의 일룸생활</p>
+            <p class="review_txt">
+              넘넘 예쁜 테이블이에요 <br /> 페닉스 상판이 정말 고급스럽고 뭐 흘려도 잘 지워지네요 대만족입니다
+            </p>
+          </a>
+
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame7">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">김하늘님의 일룸생활</p>
+            <p class="review_txt">
+              넘넘 예쁜 테이블이에요 <br /> 페닉스 상판이 정말 고급스럽고 뭐 흘려도 잘 지워지네요 대만족입니다
+            </p>
+          </a>
+
+          <a href="#" class="review_item">
+            <p class="re_frame re_frame8">리뷰사진</p>
+            <p class="star">
+              <span class="star_icon">별점1</span>
+              <span class="star_icon">별점2</span>
+              <span class="star_icon">별점3</span>
+              <span class="star_icon">별점4</span>
+              <span class="star_icon">별점5</span>
+            </p>
+            <p class="review_tit">김하늘님의 일룸생활</p>
+            <p class="review_txt">
+              넘넘 예쁜 테이블이에요 <br /> 페닉스 상판이 정말 고급스럽고 뭐 흘려도 잘 지워지네요 대만족입니다
+            </p>
+          </a>
+
+          <a href="#" class="review-slides-navigation review-slides-previous">이전</a>
+          <a href="#" class="review-slides-navigation review-slides-next">다음</a>
+        </div>
+        <!-- .reivew_slide .review_wrap -->
+      </article>
+      <!-- .review-container -->
+
+      <article class="insta_follow wow bounce">
+        <h2 class="sr-only">인스타그램배너</h2>
+        <a href="#">
+          <p>instagram</p>
+          <p>@iloom_official</p>
+          <p>일룸의 인스타그램을 팔로우하시면 더 빠르게 소식을 받아보실 수 있어요!</p>
+        </a>
+      </article>
+  </section>
+  <footer>
+    <article class="footer_container">
+      <h2 class="sr-only">푸터영역</h2>
+      <div class="footer_top">
+        <ul class="fnb">
+          <li>
+            <a href="#">About</a>
+            <ol>
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">인재채용</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">Support</a>
+            <ol>
+              <li><a href="#">고객지원</a></li>
+              <li><a href="#">서비스센터</a></li>
+              <li><a href="#">대리점개설안내</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">Info</a>
+            <ol>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보 처리방침</a></li>
+            </ol>
+          </li>
+        </ul>
+
+
+        <div class="callcenter">
+          <p class="call_num">고객센터 <span>1577-5670</span></p>
+          <p class="call_time">평일 <span>09:30 - 17:30</span></p>
+          <p class="call_time">점심시간 <span>12:30 - 13:30</span></p>
+          <p class="call_time">토요일 <span>09:30 - 12:30</span><span class="small">(쇼핑몰 구매상담 제외)</span></p>
+        </div>
+      </div>
+    </article>
+
+    <article class="footer-container2">
+      <div class="footer_bottom">
+        <div class="f_leftbox">
+          <h3 class="f_logo"><a href="#">푸터일룸로고</a></h3>
+          <ul class="f_icon">
+            <li><a href="#">인스타그램</a></li>
+            <li><a href="#">페이스북</a></li>
+            <li><a href="#">블로그</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_info">
+          <address>
+            서울시 송파구 오금로 311 (오금동45-1) (주)일룸 ·대표이사 강성문
+          </address>
+          <p>
+            개인정보보호 책임자 : 강성문 | 사업자등록번호 : 215-86-93600·통신판매업신고 : 2009-서울송파-0069호·부가통신사업신고필증 : 021129
+          </p>
+          <p>
+            호스팅 서비스사업자 · (주)일룸 | webmaster@iloom.com·Copyright (c) 2018 iloom lnc. All rights reserved
+          </p>
+          
+        </div>
+
+        <ul class="mark">
+          <li><a href="#">마크1</a></li>
+          <li><a href="#">마크2</a></li>
+          <li><a href="#">마크3</a></li>
+          <li><a href="#">마크4</a></li>
+        </ul>
+      </div>
+    </article>
+  </footer>
+  <aside>
+    <ul class="aside_list">
+      <li><a class="top" rel="noopener noreferer" href="#"><i class="fa fa-angle-up"></i></a></li>
+      <li><a href="#">챗봇</a></li>
+      <li><a href="#">공간 카운셀링</a></li>
+      <li><a href="#">매장안내</a></li>
+      <li><a href="#">전시품안내</a></li>
+    </ul>
+  </aside>
+</div>
+
+        
+</body>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>wow 사용법</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <style>
+        #wrap{width: 980px;margin: 0 auto;}
+        section{
+            height: 300px;
+            margin-bottom: 60px;
+            line-height: 300px;
+            text-align: center;
+        }
+
+        .magenta{background-color: magenta;}
+        .skyblue{background-color: skyblue;}
+        .orange{background-color: orange;}
+    </style>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        $(function(){
+            new WOW().init();
+        });//wow플러그인을 호출하는 방법
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <header style="height: 800px;"><h1 class="text-center">WOW 플러그인</h1></header>
+        <section class="magenta wow fadeInUp" data-wow-delay="200ms">내용-1</section>
+        <section class="skyblue wow bounce" data-wow-delay="500ms">내용-2</section>
+        <section class="orange wow bounceIn" data-wow-delay="1000ms">내용-3</section>
+        <section class="magenta wow rollOut">내용-4</section>
+        <section class="skyblue wow rollIn">내용-5</section>
+        <section class="orange wow hinge">내용-6</section>
+        <footer class="text-center">푸터</footer>
+    </div>
+</body>
+</html>
